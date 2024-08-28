@@ -1,6 +1,6 @@
-NOME = input()
-SALARIO_FIXO = float(input())
-VALOR_VENDAS = float(input())
-COMISSAO = VALOR_VENDAS*0.15
-SALARIO_FINAL =SALARIO_FIXO+COMISSAO
-print(f"TOTAL = R$ {SALARIO_FINAL:.2f}")
+Nome = input()
+SalarioFixo = float(input())
+ValorVendas = float(input())
+Comissao = ValorVendas*0.15
+SalarioFinal =SalarioFixo+Comissao
+print(f"TOTAL = R$ {SalarioFinal:.2f}")
